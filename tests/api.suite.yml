@@ -7,12 +7,12 @@ modules:
       - Db
     config:
         PhpBrowser:
-            url: 'http://localhost'
+            url: 'http://yii2book.dev'
         REST:
-            url: 'http://localhost'
+            url: 'http://yii2book.dev'
         Db:
-            dsn: 'mysql:host=localhost;dbname=crmapp'
+            dsn: 'mysql:host=localhost;dbname=crmapp_test'
             user: 'root'
-            password: 'mysqlroot'
+            password: ''
             dump: tests/_data/dump.sql
 

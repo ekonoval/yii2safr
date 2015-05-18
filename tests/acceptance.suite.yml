@@ -11,5 +11,6 @@ modules:
         - AcceptanceHelper
     config:
         WebDriver:
-            url: 'http://localhost:80/'
+#            url: 'http://localhost:80/'
+            url: 'http://yii2book.dev/'
             browser: firefox
